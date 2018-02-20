@@ -6,7 +6,18 @@
 
 body {
     font-family: 'Varela', sans-serif;
-    background-color: gray;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    }
+   
+   #gradient
+   {
+     width: 100%;
+     height: 800px;
+     padding: 0px;
+     margin: 0px;
+   }
 }
 
 .row .col {
@@ -57,4 +68,21 @@ nav ul a {
 
 .height-about-me {
     height: 40vh;
+}
+
+.card-about-me {
+    height: 70vh;
+}
+
+.text-about-me {
+    text-align : justify;    
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 0.1em 8em 8em; 
+    color:white;
+}
+
+.section-about-me {
+
+ background-color: rgba(0, 0, 0, 0.274);
 }
